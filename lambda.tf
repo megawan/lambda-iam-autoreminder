@@ -22,7 +22,7 @@ resource "aws_lambda_function" "access_key_reminder_lambda" {
   filename      = data.archive_file.lambda_zip.output_path
   source_code_hash = data.archive_file.lambda_zip.output_base64sha256
   handler       = "lambda_function.lambda_handler"
-  runtime       = "python3.9"  
+  runtime       = "python3.11"  
   role          = aws_iam_role.lambda_role.arn
   environment {
     variables = {
