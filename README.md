@@ -1,3 +1,3 @@
 # lambda-iam-autoreminder
 
-![Flowchart](./Flowchart.png)
+![Flowchart](./image/Flowchart.png)
